@@ -1,0 +1,95 @@
+*{
+    font-family: "inter";
+    margin: 0px;
+}
+
+#menusuperior{
+    background-color:#303030;
+    padding: 50px;
+}
+#titulo-menu{
+    color: #FFFFFF;
+    margin-top: 100px;
+    font-size: 60px;
+}
+#subtitulo-menu{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#segundo-menu{
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 150px;
+    padding-top: 60px;
+    padding-bottom: 40px
+}
+
+.dados-titulo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.dados-texto{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#terceiro-menu{
+    margin-left: 77px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    font-size: larger;
+}
+#terceiro-titulo{
+    size: 40px;
+}
+#terceiro-subtitulo{
+    size: 24px;
+}
+
+#foto-sala{
+    margin-left: 776px;
+    width: 450px;
+    height: 605px;
+    margin-top: -400px;
+}
+#ultimo-menu{
+    background-color: #303030;
+    padding: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    size: 32px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    background-color: #FFFFFF ;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 30px;
+    font-size: 24px;
+    font-family: "raleway";
+    color: #0f0f0f;
+}
+button{
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: "raleway";
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 0px;
+}
+button:hover{
+    background-color: #e7731483;
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0px 15px 20px #06243177;
+    transition-duration: 0.5s;
+}
